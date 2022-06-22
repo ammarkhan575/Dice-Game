@@ -7,8 +7,8 @@ function randomGenerator(){
 
 var imge1 = randomGenerator();
 var imge2 = randomGenerator();
-document.querySelector(".img1").setAttribute("src","/images/dice"+imge1+".png");
-document.querySelector(".img2").setAttribute("src","/images/dice"+imge2+".png");
+document.querySelector(".img1").setAttribute("src","dice"+imge1+".png");
+document.querySelector(".img2").setAttribute("src","dice"+imge2+".png");
 
 if(imge1>imge2)
 {
